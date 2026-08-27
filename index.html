@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maruf Hossain — Applied Chemistry &amp; Chemical Engineering | University of Rajshahi</title>
+    <meta name="description" content="Academic and professional portfolio of Maruf Hossain, B.Sc. Engg. student in Chemical Engineering at the Department of Applied Chemistry &amp; Chemical Engineering, University of Rajshahi." />
+    <meta property="og:title" content="Maruf Hossain — Applied Chemistry &amp; Chemical Engineering Portfolio" />
+    <meta property="og:description" content="Applied Chemistry &amp; Chemical Engineering student with a solid foundation in laboratory techniques, process calculations, and research-oriented work." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <script>
+      (function() {
+        try {
+          var theme = localStorage.getItem('portfolio-theme');
+          if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-neutral-50 text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100 font-sans antialiased transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
